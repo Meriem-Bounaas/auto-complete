@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'borderSugg':'#A2A2A2',
+        'searchColor':"#FFFFFF",
+        'suggColor':'#666666'
+      },
+    },
   },
   plugins: [],
 }
